@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
-  padding:50px;
+  padding:30px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#AAA;
   font-weight:300;
@@ -162,7 +162,7 @@ header ul a strong {
 section {
   width:600px;
   float:right;
-  padding-bottom:50px;
+  padding-bottom:30px;
 }
 
 small {
