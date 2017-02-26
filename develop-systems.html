@@ -31,9 +31,25 @@
 	<section>
 	<h3>
 	<font color="#990000"><a id="cachet" class="anchor" href="#cachet" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cachet: A Decentralized Architecture for Privacy Preserving Social Networking with Caching</font></h3>
+	<h3> <font color="#990000">DECENT: A Decentralized Architecture for Enforcing Privacy in Online Social Networks </font></h3>
 	<h4> Published </h4>
-	
-	<h4> Methods: </h4>
+		<p>Shirin Nilizadeh, Sonia Jahid, Prateek Mittal, Nikita Borisov, and Apu Kapadia</p>
+		<p>Online social networks (OSNs) such as Facebook and Google+ have transformed the way our society communi- cates. 
+			However, this success has come at the cost of user privacy; in today’s OSNs, users are not in control of their own data, and depend on OSN operators to enforce access control policies. 
+			A multitude of privacy breaches has spurred research into privacy-preserving alternatives for social net- working, exploring a number of techniques for storing, disseminating, and controlling access to data in a decentralized fashion. 
+			In this paper, we argue that a combination of techniques is necessary to efficiently support the complex functionality requirements of OSNs.
+		</p>
+		<p> We propose Cachet, an architecture that provides strong security and privacy guarantees while preserving the main functionality of online social networks. 
+			In particular, Cachet protects the confidentiality, integrity and availability of user content, as well as the privacy of user relationships. 
+			Cachet uses a distributed pool of nodes to store user data and ensure availability. 
+			Storage nodes in Cachet are untrusted; we leverage cryptographic techniques such as attribute-based encryption to protect the confidentiality of data. 
+			For efficient dissemination and retrieval of data, Cachet uses a hybrid structured-unstructured overlay paradigm in which a conventional distributed hash table is augmented with social links between users. 
+			Social contacts in our system act as caches to store recent updates in the social network, and help reduce the cryptographic as well as the communication overhead in the network.
+		</p>
+		<p>We built a prototype implementation of Cachet in the FreePastry simulator. To demonstrate the functionality of existing OSNs we implemented the ‘newsfeed’ application. 
+			Our evaluation demonstrates that (a) decentralized architectures for privacy preserving social networking are feasible, and
+			(b) use of social contacts for object caching results in significant performance improvements.</p>
+	<h4> Methods: Peer-to-peer social network, Data privacy and security: confidentiality, integrity and security, Distributed hash tables: FreePastry simulator, Applied crypto: Attribute-based access control and public-key crypto, Algorithm.</h4>
 
 	</section>
 
@@ -41,8 +57,16 @@
 	<h3>
 	<font color="#990000"><a id="pythia" class="anchor" href="#pythia" aria-hidden="true"><span class="octicon octicon-link"></span></a>Pythia: A Privacy Aware, Peer-to-Peer Network for Social Search</font></h3>
    <h4> Published </h4>
-	
+		<p>Emerging "live social search" systems such as Aardvark.com allow users to pose questions to their social network in real time. 
+			People can thus obtain answers from real humans for questions that prove too complex for web searches. 
+			Centralized systems that broker such queries and answers, however, do not provide adequate privacy. 
+			The success of these systems will be limited since users may avoid asking or answering questions related to sensitive topics such as health, political activism, or even innocuous questions which may make the querier seem ignorant.
+		</p>
+		<p> Since social search systems leverage the structure of the social network to better match askers and answerers, standard ideas that hide this structure such as "connect to Aardvark via Tor" fall short.
+			Thus new techniques are needed to preserve the privacy of askers and answerers beyond the currently understood anonymity techniques. 
+			We explore the new and unique challenges for privacy, and propose Pythia, a decentralized architecture based on "controlled flooding" to enable privacy-enhanced social search that retains some degree of social network structure.</p>
 	<h4> Methods: </h4>
+		<p>Peer-to-peer question and answering system, User privacy and anonymity: expertise and interest unlinkability, Network Science: social communities, Privacy enhancing technologies: Onion routing, Anonymity set, and controlled flooding, Algorithms, and Simulations.</p>
 	</section>
 
       <footer>
